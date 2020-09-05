@@ -3,7 +3,7 @@
     "network": "homestead",
     "chainId": 1,
     "subgraphUrl": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer",
-    "hubUrl": "https://vote.balancer.finance",
+    "hubUrl": "http://gov.letsbuild.finance",
     "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
     "connectors": {
       "injected": {
@@ -31,7 +31,7 @@
     "network": "homestead",
     "chainId": 1,
     "subgraphUrl": "https://api.thegraph.com/subgraphs/name/balancer-labs/balancer",
-    "hubUrl": "https://beta.vote.balancer.finance",
+    "hubUrl": "http://gov.letsbuild.finance",
     "multicall": "0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441",
     "connectors": {
       "injected": {

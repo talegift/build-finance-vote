@@ -90,8 +90,8 @@ export default {
       return Object.fromEntries(
         Object.entries(this.proposals)
           .filter(proposal => {
-            if (!this.namespace.verified.includes(proposal[1].address))
-              return false;
+            // if (!this.namespace.verified.includes(proposal[1].address))
+            //   return false;
             if (this.selectedState === 'All') return true;
             if (
               this.selectedState === 'Active' &&
