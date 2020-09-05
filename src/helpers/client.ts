@@ -1,9 +1,9 @@
 let defaultRestApi = 'http://localhost:3000';
 const domainName = window.location.hostname;
-if (domainName === 'gov.letsbuild.finance')
-  defaultRestApi = 'https://gov.letsbuild.finance';
-if (domainName === 'gov.letsbuild.finance')
-  defaultRestApi = 'https://gov.letsbuild.finance';
+if (domainName === 'vote.letsbuild.finance')
+  defaultRestApi = 'https://vote.letsbuild.finance';
+if (domainName === 'vote.letsbuild.finance')
+  defaultRestApi = 'https://vote.letsbuild.finance';
 const restApi = process.env.VUE_APP_REST_API || defaultRestApi;
 
 class Client {
